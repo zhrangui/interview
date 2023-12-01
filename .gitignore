@@ -33,3 +33,6 @@ packages/
 
 .idea
 out/
+
+.gradle
+build
