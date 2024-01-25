@@ -6,7 +6,7 @@ class SolutionTest {
         val classUnderTest = Solution()
         val nums =  intArrayOf(5,7,7,8,8,10)
         val target = 8
-        val pos = classUnderTest.searchRange(nums, target)
-        assert(pos.contentEquals(intArrayOf(-1,-1)))
+        val result = classUnderTest.searchRange(nums, target)
+        assert(result.contentEquals(intArrayOf(-1,-1)))
     }
 }
