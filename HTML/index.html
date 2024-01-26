@@ -1,0 +1,8 @@
+<div class="image" *ngFor="let link of links; index as i">
+    <img [src]="link">
+    <button class="remove" (click)="remove(i)"></button>
+</div>
+
+remove(i) {
+    this.links.splice(i,1);
+}
